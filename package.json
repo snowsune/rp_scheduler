@@ -1,0 +1,20 @@
+{
+  "name": "rp_scheduler",
+  "version": "1.0.0",
+  "description": "Inspired by apps like when2meet~ and done as an early investigation into sveltekit! Everyone kept saying i should learn~",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^6.2.0",
+    "svelte": "^5.39.5",
+    "vite": "^7.1.7"
+  }
+}
