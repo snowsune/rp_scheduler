@@ -5,6 +5,5 @@ sveltekit! Everyone kept saying i should learn~
 
 ## Notes
 
-Must run `npm run build` from here!
+Use `pnpm dev` to run
 (Will include as CI/CD later)
-
