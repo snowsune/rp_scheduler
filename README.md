@@ -3,7 +3,11 @@
 Inspired by apps like when2meet~ and done as an early investigation into
 sveltekit! Everyone kept saying i should learn~
 
-## Notes
+## Dev Notes
 
-Use `pnpm dev` to run
-(Will include as CI/CD later)
+
+`pnpm install` first!
+
+Use `pnpm dev` to run micro/just the embedded bit
+
+`pnpm build` to package into the parent app.

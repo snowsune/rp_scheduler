@@ -4,10 +4,12 @@
 {% block title %}RP Scheduler{% endblock %}
 
 {% block content %}
-<!-- <div class="container"> no SPA-y stuff for the moment being
-    <div id="rp-scheduler-app"></div>
-</div> -->
-
-<!-- Load the compiled/built app! (This whole file is just a container really) -->
-<!-- <script type="module" src="{% static 'rp/rp_scheduler.js' %}"></script> -->
+<div class="container">
+    <!-- Niku prolly wont approve~ -->
+    <iframe src="{% static 'rp/index.html' %}" width="100%" height="800px" frameborder="0"
+        style="border: none; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" title="RP Scheduler">
+        <p>Your browser doesn't support iframes! <a href="{% static 'rp/index.html' %}">Open RP Scheduler in a new
+                tab?</a></p>
+    </iframe>
+</div>
 {% endblock %}
